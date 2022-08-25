@@ -68,8 +68,13 @@ SMOTE technique was not utilized as method is not compatable with categorical fe
 ***
 
 ## Final Model
+#### Scores
 
-INSERT SCORES, CONFUSION AND AUC GRAPH
+**Accuracy**: 0.8346948720153639
+**Precision**: 0.688160390138174
+**Recall**: 0.35494689770821686
+
+INSERT CONFUSION AND AUC GRAPH
 
 ## Evaluation
 After modeling was complete I used sklearn's permutation importance function in order to determine which features were most important in predicting if an injury occurred. The top 5 returned were: 
@@ -82,12 +87,11 @@ TRAFFICWAY_TYPE
 ***
 
 ## Conclusion 
-Provide your conclusions about the work you've done, including any limitations or next steps.
-Questions to consider:
+Based on the features of importance I can reccomend the following to the Chicago Department of Transportaion:
 
-What would you recommend the business do as a result of this work?
-What are some reasons why your analysis might not fully solve the business problem?
-What else could you do in the future to improve this project?
+1. Increase access to public transit: Due to the low number of collisions involving buses and trains the DOT and CTA need a strategy to make public transit an option for more people. 
+2. Increase bike lanes and protection for existing lanes:  since injuries are more likely to occur between a vehicle and cyclist safeguards should be made to protect them.
+3. Safety: Spearhead a PSA program that brings attention to both the importance of using safety equipment such as car seats and helmets so that they will function properly in the event of a crash
 
 ***
 
