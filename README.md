@@ -55,15 +55,21 @@ Models used from sklearn library using default parameters.
 - Random Forests 
 - Gradient Booster
 
-**Model Comparison**
-HAVE PRINT OUT OF EACH SCORE AND PLOT.
-
 **Grid Search**
-For model tuning I am going to focus on the Random Forests model. It had the highest recall score (0.32), but when dealing with predicting if an injury has occured there is a higher 'cost' for a false negative. I took this model and performed a grid search to find the optimal parameters for imputer strategy ('mean'), RandomForest criterion ('gini'), and min_samples_leaf (5).
+For model tuning I am going to focus on the Gradient Booster model. It had the highest overall scores. I took this model and performed a grid search to find the optimal parameters for learning_rate, n_estimators, and max_depth. 
+
+The best parameters are as followed. 
+- learning_rate: 0.1
+- max_depth: 7 
+- n_estimators': 1000
 
 SMOTE technique was not utilized as method is not compatable with categorical features.
 
 ***
+
+## Final Model
+
+INSERT SCORES, CONFUSION AND AUC GRAPH
 
 ## Evaluation
 After modeling was complete I used sklearn's permutation importance function in order to determine which features were most important in predicting if an injury occurred. The top 5 returned were: 
@@ -71,8 +77,7 @@ After modeling was complete I used sklearn's permutation importance function in 
 SAFETY_EQUIPMENT
 FIRST_CRASH_TYPE
 DEVICE_CONDITION
-TRAFFICWAY_TYPE
-AGE     
+TRAFFICWAY_TYPE     
 
 ***
 
