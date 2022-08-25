@@ -1,5 +1,5 @@
 # Chicago Vehicle Saftey: 
-## Car Crash Injury Detection & Reduction
+## Traffic Accident Injury Detection & Reduction
 **Author**: Ashli Dougherty 
 
 ## Overview
@@ -7,13 +7,13 @@ A one-paragraph overview of the project, including the business problem, data, m
 
 *** 
 ## Business Problem
-Last year there were 132,967 documented vehicle accidents in the city limits of Chicago. 20% of all accidents resulted in one or more people injured for a total of 26,593 injuries. The Chicago Department of Transportation is currently working together with [Vision Zero](https://www.chicago.gov/city/en/depts/cdot/supp_info/vision-zero-chicago.html) on a plan to eliminate ALL injuries and fatalities whether your mode of transportation is your personal vehicle, public transit, or walking. 
+Last year there were 132,967 documented traffic accidents in the city of Chicago. Approximately 20% of all accidents resulted in one or more people injured for a total of 26,593 injuries. The Chicago Department of Transportation is currently working together with [Vision Zero](https://www.chicago.gov/city/en/depts/cdot/supp_info/vision-zero-chicago.html) on a plan to eliminate ALL injuries and fatalities whether your mode of transportation is your personal vehicle, public transit, cycling, or walking. 
 
-As a partner with these two institutions I wanted to use historical data crash data in order to make our city a safer place for all those who live, work, and vacation here. My approach to this problem was to build a machine learning model that would: 
+As a partner with these two institutions I used historical crash data in order to make our city a safer place for all those who live, work, and vacation here. My approach to this problem was to build a machine learning model that would: 
 1. Predict if an injury would be present at an accident site based on a variety of factors.
 2. Determine which factors increase the probability of an injury being present. 
 
-The city can then use the identified factors as a starting point for increasing citizen safety. 
+The city can then use the identified factors as a starting point for improvements that can increase citizen safety. 
 ***
 
 ## Data
@@ -40,8 +40,7 @@ After cleaning the data the following features were included in the model:
 - INJURIES_TOTAL         
 - CRASH_HOUR           
 - CRASH_DAY_OF_WEEK     
-- CRASH_MONTH            
-- UNIT_TYPE             
+- CRASH_MONTH                     
 - VEHICLE_TYPE          
 - PERSON_TYPE          
 - SEX                 
@@ -73,7 +72,7 @@ SAFETY_EQUIPMENT
 FIRST_CRASH_TYPE
 DEVICE_CONDITION
 TRAFFICWAY_TYPE
-UNIT_TYPE
+AGE     
 
 ***
 
@@ -91,12 +90,6 @@ What else could you do in the future to improve this project?
 Please review our full analysis in our **LINK TO Jupyter Notebook** or our **LINK TO presentation**.
 
 For any additional questions, please contact Ashli Dougherty at ashli.d.dougherty@gmail.com
-
-### Repository Structure 
-├── README.md                           <- The top-level README for reviewers of this project
-├── Car_Crash_Injuries.ipynb            <- Narrative documentation of analysis in Jupyter notebook
-├── CarCrashPresentation.pdf            <- PDF version of project presentation                           
-└── images                              <- Both sourced externally and generated from code
 
 
 
