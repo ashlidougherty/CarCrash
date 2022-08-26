@@ -77,6 +77,8 @@ SMOTE technique was not utilized as method is not compatable with categorical fe
 - **Accuracy**: 0.8346948720153639
 - **Precision**: 0.688160390138174
 - **Recall**: 0.35494689770821686
+
+
 ![finalconfusion](./Images/finalconfusion.png) 
 
 ![rocaucfinal](./Images/rocaucfinal.png) 
@@ -85,15 +87,23 @@ SMOTE technique was not utilized as method is not compatable with categorical fe
 After modeling was complete I used sklearn's permutation importance function in order to determine which features were most important in predicting if an injury occurred. The top 5 returned were: 
 
 1. **SAFETY_EQUIPMENT**
+
+
 ![safetyequipment](./Images/safetyequipment.png) 
 
 2. **FIRST_CRASH_TYPE**
+
+
 ![crashtype](./Images/crashtype.png) 
 
 3. **CRASH_DAY_OF_WEEK**
+
+
 ![dayofweek](./Images/dayofweek.png) 
 
 4. **CRASH_HOUR**     
+
+
 ![crashhour](./Images/crashhour.png) 
 ***
 
