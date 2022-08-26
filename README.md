@@ -120,6 +120,6 @@ Based on the features of importance I can reccomend the following to the Chicago
 ***
 
 ### For More Information
-Please review our full analysis in our [Jupyter Notebook](./ChicagoCarCrash.ipynb) or our [presentation](./Chicago Vehicle Safety Presentation.pdf).
+Please review our full analysis in our [Jupyter Notebook](./ChicagoCarCrash.ipynb) or our [presentation](./ChicagoCrashesPresentation.pdf).
 
 For any additional questions, me at ashli.d.dougherty@gmail.com
