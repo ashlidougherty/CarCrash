@@ -1,5 +1,5 @@
 
-![cityofchicago](./images/cityofchicago) 
+![cityofchicago](./images/cityofchicago.png) 
 # Chicago Vehicle Saftey: 
 ## Traffic Accident Injury Detection & Reduction
 **Author**: Ashli Dougherty 
