@@ -84,7 +84,7 @@ SMOTE technique was not utilized as method is not compatable with categorical fe
 ![rocaucfinal](./Images/rocaucfinal.png) 
 
 ## Evaluation
-After modeling was complete I used sklearn's permutation importance function in order to determine which features were most important in predicting if an injury occurred. The top 5 returned were: 
+After modeling was complete I used sklearn's permutation importance function in order to determine which features were most important in predicting if an injury occurred. The top 4 returned were: 
 
 1. **SAFETY_EQUIPMENT**
 
