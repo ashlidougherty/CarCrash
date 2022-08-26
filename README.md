@@ -1,6 +1,10 @@
+![crashpicture](./Images/crashpic.jpeg) 
+
+# Chicago Vehicle Saftey: 
 
 ![cityofchicago](./Images/cityofchicago.png) 
-# Chicago Vehicle Saftey: 
+![visionzero](./Images/visionzero.png) 
+
 ## Traffic Accident Injury Detection & Reduction
 **Author**: Ashli Dougherty 
 
@@ -65,7 +69,6 @@ The best parameters are as followed.
 - n_estimators': 1000
 
 SMOTE technique was not utilized as method is not compatable with categorical features.
-
 ***
 
 ## Final Model
@@ -74,30 +77,35 @@ SMOTE technique was not utilized as method is not compatable with categorical fe
 - **Accuracy**: 0.8346948720153639
 - **Precision**: 0.688160390138174
 - **Recall**: 0.35494689770821686
-
-
+![finalconfusion](./Images/finalconfusion.png) 
+![rocaucfinal](./Images/rocaucfinal.png) 
 
 ## Evaluation
 After modeling was complete I used sklearn's permutation importance function in order to determine which features were most important in predicting if an injury occurred. The top 5 returned were: 
 
 1. **SAFETY_EQUIPMENT**
+![safetyequipment](./Images/safetyequipment.png) 
 2. **FIRST_CRASH_TYPE**
+![crashtype](./Images/crashtype.png) 
 3. **CRASH_DAY_OF_WEEK**
+![dayofweek](./Images/dayofweek.png) 
 4. **CRASH_HOUR**     
-
+![crashhour](./Images/crashhour.png) 
 ***
 
 ## Conclusion 
 Based on the features of importance I can reccomend the following to the Chicago Department of Transportaion:
+1. Increase access to public transit: Due to the low number of collisions involving buses and trains the DOT and CTA need a strategy to make public transit an option for more people. Decreasing the number of personal vehicles on the road during commuter hours could lead to a decrease traffic incidents.
+2. Safety initiatives: Since injuries are more likely to occur between a vehicle and cyclist safeguards should be made to protect them. The city should look into how to create more bike lanes and add protection from vehicles to the ones that already exist. Since safety equipment seems to be failing the city can have PSAs on how to correctly use personal and vehicle safety features such as seat belts and bike helmets
+3. Targeted response windows: we now know that accidents resulting in injury occur in the  afternoons and Saturday. This information can be used by Chicago PD and emergency response systems for scheduling and resource allocation. 
 
 ## Next Steps
 - Increase precision of model.
 - These are only crashes that are documented through Chicago Police Department. Comparing records here to insurance claims might give a better idea of total crashes within the city limits. 
 - Create a model that determines features most associated with severe injuries.
-
 ***
 
 ### For More Information
-Please review our full analysis in our **LINK TO Jupyter Notebook** or our **LINK TO presentation**.
+
 
 For any additional questions, please contact Ashli Dougherty at ashli.d.dougherty@gmail.com
