@@ -6,7 +6,7 @@
 A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
 
 *** 
-## Business Problem
+## Business Problem  
 Last year there were 132,967 documented traffic accidents in the city of Chicago. Approximately 20% of all accidents resulted in one or more people injured for a total of 26,593 injuries. The Chicago Department of Transportation is currently working together with [Vision Zero](https://www.chicago.gov/city/en/depts/cdot/supp_info/vision-zero-chicago.html) on a plan to eliminate ALL injuries and fatalities whether your mode of transportation is your personal vehicle, public transit, cycling, or walking. 
 
 As a partner with these two institutions I used historical crash data in order to make our city a safer place for all those who live, work, and vacation here. My approach to this problem was to build a machine learning model that would: 
@@ -70,19 +70,19 @@ SMOTE technique was not utilized as method is not compatable with categorical fe
 ## Final Model
 #### Scores
 
-**Accuracy**: 0.8346948720153639
-**Precision**: 0.688160390138174
-**Recall**: 0.35494689770821686
+- **Accuracy**: 0.8346948720153639
+- **Precision**: 0.688160390138174
+- **Recall**: 0.35494689770821686
 
-INSERT CONFUSION AND AUC GRAPH
+
 
 ## Evaluation
 After modeling was complete I used sklearn's permutation importance function in order to determine which features were most important in predicting if an injury occurred. The top 5 returned were: 
 
-SAFETY_EQUIPMENT
-FIRST_CRASH_TYPE
-DEVICE_CONDITION
-TRAFFICWAY_TYPE     
+1. **SAFETY_EQUIPMENT**
+2. **FIRST_CRASH_TYPE**
+3. **CRASH_DAY_OF_WEEK**
+4. **CRASH_HOUR**     
 
 ***
 
