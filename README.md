@@ -1,11 +1,13 @@
+
+![cityofchicago](./images/cityofchicago) 
 # Chicago Vehicle Saftey: 
 ## Traffic Accident Injury Detection & Reduction
 **Author**: Ashli Dougherty 
 
 ## Overview
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
-
+The goal of this project was to determine how to decrease the number of injuries that occur from car crashes in the city of Chicago. The data used is from the city of Chicago Department of Transportation open data website. Four predictive models were built and the best one was tuned and key features were determined. These key features were analyzed and safety suggestions were reccommended.   
 *** 
+
 ## Business Problem  
 Last year there were 132,967 documented traffic accidents in the city of Chicago. Approximately 20% of all accidents resulted in one or more people injured for a total of 26,593 injuries. The Chicago Department of Transportation is currently working together with [Vision Zero](https://www.chicago.gov/city/en/depts/cdot/supp_info/vision-zero-chicago.html) on a plan to eliminate ALL injuries and fatalities whether your mode of transportation is your personal vehicle, public transit, cycling, or walking. 
 
@@ -25,7 +27,6 @@ I used the following datasets:
 - [People Dataset](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d): This data contains information about people involved in a crash and if any injuries were sustained.
 
 Only incidents from the calendar year 2021 will be analyzed as it is the last complete year on record. The number of reports is less than 2018 and 2019 but more than 2020 which indicates that people are driving/using transportation more since the pandemic. 
-
 ***
 
 ## Modeling
@@ -89,9 +90,10 @@ After modeling was complete I used sklearn's permutation importance function in 
 ## Conclusion 
 Based on the features of importance I can reccomend the following to the Chicago Department of Transportaion:
 
-1. Increase access to public transit: Due to the low number of collisions involving buses and trains the DOT and CTA need a strategy to make public transit an option for more people. 
-2. Increase bike lanes and protection for existing lanes:  since injuries are more likely to occur between a vehicle and cyclist safeguards should be made to protect them.
-3. Safety: Spearhead a PSA program that brings attention to both the importance of using safety equipment such as car seats and helmets so that they will function properly in the event of a crash
+## Next Steps
+- Increase precision of model.
+- These are only crashes that are documented through Chicago Police Department. Comparing records here to insurance claims might give a better idea of total crashes within the city limits. 
+- Create a model that determines features most associated with severe injuries.
 
 ***
 
@@ -99,12 +101,3 @@ Based on the features of importance I can reccomend the following to the Chicago
 Please review our full analysis in our **LINK TO Jupyter Notebook** or our **LINK TO presentation**.
 
 For any additional questions, please contact Ashli Dougherty at ashli.d.dougherty@gmail.com
-
-
-
-
-
-
-
-
-
