@@ -78,6 +78,7 @@ SMOTE technique was not utilized as method is not compatable with categorical fe
 - **Precision**: 0.688160390138174
 - **Recall**: 0.35494689770821686
 ![finalconfusion](./Images/finalconfusion.png) 
+
 ![rocaucfinal](./Images/rocaucfinal.png) 
 
 ## Evaluation
@@ -85,10 +86,13 @@ After modeling was complete I used sklearn's permutation importance function in 
 
 1. **SAFETY_EQUIPMENT**
 ![safetyequipment](./Images/safetyequipment.png) 
+
 2. **FIRST_CRASH_TYPE**
 ![crashtype](./Images/crashtype.png) 
+
 3. **CRASH_DAY_OF_WEEK**
 ![dayofweek](./Images/dayofweek.png) 
+
 4. **CRASH_HOUR**     
 ![crashhour](./Images/crashhour.png) 
 ***
@@ -106,6 +110,6 @@ Based on the features of importance I can reccomend the following to the Chicago
 ***
 
 ### For More Information
+Please review our full analysis in our [Jupyter Notebook](./ChicagoCarCrash.ipynb) or our [presentation](./Chicago Vehicle Safety Presentation.pdf).
 
-
-For any additional questions, please contact Ashli Dougherty at ashli.d.dougherty@gmail.com
+For any additional questions, me at ashli.d.dougherty@gmail.com
